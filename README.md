@@ -109,8 +109,10 @@
           salary decimal(10,3),
           sex char(1),
           curr_tm datetime )
+   
+   ex2: **create table sample as (select * from existing_table_name )**
 
-8. Alter syntax :
+9. Alter syntax :
    
     A.--to add new column
     **alter table sample add last_name varchar(50);**
@@ -130,6 +132,10 @@
     III-- Step 3: Drop the old column
     **ALTER TABLE sample
     DROP COLUMN name;**
+
+10. truncate syntax : **truncate table sample;**
+11.  drop syntax : **drop table sample;**
+12.  
    
       
    
