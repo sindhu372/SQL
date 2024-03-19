@@ -135,7 +135,40 @@
 
 10. truncate syntax : **truncate table sample;**
 11.  drop syntax : **drop table sample;**
-12.  
+
+# DML (Data Manipulation Language):
+1. these commands are used to manipulate the data stored in database objects.
+2. **SELECT:** Used to retrieve data from one or more tables based on specified criteria.
+3. **INSERT:** Used to add new rows of data into a table.
+4. **UPDATE:** Used to modify existing data in a table.
+5. **DELETE:** Used to remove rows of data from a table.
+6. **MERGE:** Used to perform a combination of INSERT, UPDATE, and DELETE operations based on a specified condition.
+7. 	create table sample
+	(
+  	serial_no int primary key identity,
+  	name varchar(50) not null,
+  	dob date unique,
+  	birthtime time,
+  	salary decimal(10,3),
+  	sex char(1),
+  	curr_tm datetime
+ 	)
+
+ 	insert into sample (name,dob,birthtime,salary,sex,curr_tm) values ('sindhu koramoni','12-dec-1997','10:55:34',120000.98,'F', CURRENT_TIMESTAMP),
+ 	('Aadhithya koramoni','24-nov-1999','10:55:34',120000.98,'M', CURRENT_TIMESTAMP),
+ 	('chandra prakash reddy Addan','03-jun-1993','10:55:34',120000.98,'M', CURRENT_TIMESTAMP),
+ 	('sripriya konda','29-apr-1997','10:55:34',120000.98,'F', CURRENT_TIMESTAMP),
+ 	('suppu goud','16-aug-1997','10:55:34',120000.98,'F', CURRENT_TIMESTAMP);
+
+  	select * from sample;
+
+ 	update sample set name = 'Supraja Goud' where name = 'suppu goud';
+ 	update sample set name = 'Sripriya Konda' where name = 'sripriya konda';
+
+	 delete from sample where name like '%koramoni'
+
+# DCL (Data Control Language): 
+1. DCL commands are used to control access to the database objects and define permissions for users or roles. 
    
       
    
