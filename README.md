@@ -42,6 +42,10 @@
 2. Faster, business insights:
 3. Smarter decision-making:
 
+# DDL ( data defination language)
+1. DDL commands are used to define, modify and manage the structure of database objects like table, view, constraints and indexes.
+2. Create : 
+
 
 
 
