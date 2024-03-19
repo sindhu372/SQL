@@ -31,7 +31,7 @@
 4. Traditionally, data warehouse was hosted on-premises. Now-a-days DW is hosted on cloud too.
 5. DW is structured using predefined schema.
 6. #note : databases is used for transactional processing and datawareHouse is used for analytical processing.
-7. Data warehouses often use a #dimensional model, organizing data into fact tables (containing business facts or metrics) and dimension tables (containing descriptive attributes)
+7. Data warehouses often use a **#dimensional** model, organizing data into fact tables (containing business facts or metrics) and dimension tables (containing descriptive attributes)
 
 # on-premises
 1. refers to computing infrastructure and software that are located within the physical premises of an organization.
@@ -44,7 +44,10 @@
 
 # DDL ( data defination language)
 1. DDL commands are used to define, modify and manage the structure of database objects like table, view, constraints and indexes.
-2. Create : 
+2. **Create:** Used to create new database objects.
+3. **ALTER:** Used to modify the structure of existing database objects.
+4. **TRUNCATE:** used to remove the data without deleting the table structure.
+5. **DROP :** used to drop both data and table struture.
 
 
 
