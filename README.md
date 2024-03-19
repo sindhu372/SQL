@@ -168,7 +168,10 @@
 	 delete from sample where name like '%koramoni'
 
 # DCL (Data Control Language): 
-1. DCL commands are used to control access to the database objects and define permissions for users or roles. 
+1. DCL commands are used to control access to the database objects and define permissions for users or roles.
+2. GRANT SELECT, INSERT ON Employees TO user1;
+3. REVOKE INSERT ON Employees FROM user1;
+
    
       
    
