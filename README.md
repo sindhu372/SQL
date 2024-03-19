@@ -112,24 +112,24 @@
 
 8. Alter syntax :
    
-    **--to add new column**
-    alter table sample add last_name varchar(50);
+    A.--to add new column
+    **alter table sample add last_name varchar(50);**
 
-    **--modifying coulumn data type**
-    alter table sample alter column name varchar(60)
+    B.--modifying coulumn data type
+   **alter table sample alter column name varchar(60)**
 
-    **--modify the column name ( we can't do with single step)**
+    C.--modify the column name ( we can't do with single step)
 
-   **-- Step 1: Add a new column with the desired name**
-    ALTER TABLE sample
-    ADD  full_name varchar(60);
+    I-- Step 1: Add a new column with the desired name
+   **ALTER TABLE sample
+    ADD  full_name varchar(60);**
 
-    **--Step 2: Update the new column with data from the old column**
-    UPDATE sample SET full_name = name;
+    II--Step 2: Update the new column with data from the old column
+    **UPDATE sample SET full_name = name;**
 
-    **-- Step 3: Drop the old colum**n
-    ALTER TABLE sample
-    DROP COLUMN name;
+    III-- Step 3: Drop the old column
+    **ALTER TABLE sample
+    DROP COLUMN name;**
    
       
    
