@@ -24,6 +24,9 @@
 6. Backup and Disaster Recovery:
 7. Data Governance and Compliance:
 
+<details>
+	<summary>Datawarehouse</summary>
+	
 # Datawarehouse (think first , load later)
 1. is a system that gathers raw data from different source into a single, central, consistent data store to perform data analysis.
 2. A data warehouse system enables an organization to run powerful analytics on huge volumes (petabytes) of historical data in ways that a standard database cannot.
@@ -41,6 +44,8 @@
 1. Better data quality:
 2. Faster, business insights:
 3. Smarter decision-making:
+
+</details>
 
 # DataTypes
 **Numeric Types:**
