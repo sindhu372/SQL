@@ -37,5 +37,13 @@
 1. refers to computing infrastructure and software that are located within the physical premises of an organization.
 2. which means organization/business maintain there own servers/data centers and managed by internal IT staff.
 
+# Advantages of DW:
+1. Better data quality:
+2. Faster, business insights:
+3. Smarter decision-making:
+
+
+
+
 
 
