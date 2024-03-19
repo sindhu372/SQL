@@ -96,6 +96,43 @@
 5. **DROP :** used to drop both data and table struture.
 6. **RENAME:** Used to rename existing database objects.
 7. Create syntax :
+     CREATE TABLE table_name (
+       column1 datatype [constraint],
+       column2 datatype [constraint],
+        ...);
+   ex :
+        create table sample
+        ( serial_no int primary key identity,
+          name varchar(50) not null,
+          dob date unique,
+          birthtime time,
+          salary decimal(10,3),
+          sex char(1),
+          curr_tm datetime )
+
+8. Alter syntax :
+   
+    **--to add new column**
+    alter table sample add last_name varchar(50);
+
+    **--modifying coulumn data type**
+    alter table sample alter column name varchar(60)
+
+    **--modify the column name ( we can't do with single step)**
+
+   **-- Step 1: Add a new column with the desired name**
+    ALTER TABLE sample
+    ADD  full_name varchar(60);
+
+    **--Step 2: Update the new column with data from the old column**
+    UPDATE sample SET full_name = name;
+
+    **-- Step 3: Drop the old colum**n
+    ALTER TABLE sample
+    DROP COLUMN name;
+      
+   
+        
     
 
 
