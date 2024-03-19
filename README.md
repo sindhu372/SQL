@@ -130,6 +130,7 @@
     **-- Step 3: Drop the old colum**n
     ALTER TABLE sample
     DROP COLUMN name;
+   
       
    
         
