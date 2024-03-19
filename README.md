@@ -42,12 +42,61 @@
 2. Faster, business insights:
 3. Smarter decision-making:
 
+# DataTypes
+**Numeric Types:**
+
+**int:** Integer (whole number) data type.
+**bigint:** Large integer.
+**smallint:** Small integer.
+**tinyint**: Very small integer.
+**decimal(p, s):** Fixed precision and scale numeric data.
+**numeric(p, s):** Fixed precision and scale numeric data (same as decimal).
+**float(n):** Floating-point number.
+**real:** Single-precision floating-point number.
+
+**Character Strings:**
+
+**char(n):** Fixed-length character data.
+**varchar(n):** Variable-length character data.
+**nvarchar(n):** Variable-length Unicode character data.
+**text:** Variable-length non-Unicode data.
+
+**Date and Time Types:**
+
+**date:** Date data type.
+**time:** Time data type.
+**datetime:** Date and time data.
+**datetime2:** Date and time data with larger fractional seconds precision.
+**datetimeoffset:** Date and time data with time zone awareness.
+**smalldatetime:** Date and time data with less precision.
+
+**Binary Types:**
+
+**binary(n):** Fixed-length binary data.
+**varbinary(n)**: Variable-length binary data.
+**image:** Variable-length binary data (for storing large data such as images).
+
+**Other Types**:
+
+**bit:** Boolean data type.
+**uniqueidentifier:** Unique identifier (GUID).
+**xml:** XML data type.
+**geometry:** Spatial data type for representing data in a two-dimensional plane.
+**geography:** Spatial data type for representing data in a round-earth coordinate system.
+
+**JSON Types** (introduced in newer versions):
+
+**json:** JSON data type for storing JSON (JavaScript Object Notation) data.
+
 # DDL ( data defination language)
 1. DDL commands are used to define, modify and manage the structure of database objects like table, view, constraints and indexes.
 2. **Create:** Used to create new database objects.
 3. **ALTER:** Used to modify the structure of existing database objects.
 4. **TRUNCATE:** used to remove the data without deleting the table structure.
 5. **DROP :** used to drop both data and table struture.
+6. **RENAME:** Used to rename existing database objects.
+7. Create syntax :
+    
 
 
 
