@@ -1,9 +1,16 @@
-# SQL (Structured Query Language)
+<details> 
+	 <summary> SQL (Structured Query Language) </summary>
+	
 1. is a programming language used to communicate with databases.
 2. is used to access and manipulate the data in a database.
 3. SQL is an ANSI (American national standard institute)
 4. SQL is not case-sensitive
+   
+</details>
 
+<details>
+		 <summary> Database </summary>
+	
 # Database
 1. is a collection of organized data that may be structured, unstrutured and semi-structured , stored on computer systems.
 2. It can be managed by #DBMS (database management system), a software to manage the data.
@@ -11,6 +18,8 @@
 4. Data present in the database can be easily accessed, updated, deleted using SQL (structured query language)
 5. There are different types of databases to handle different data and use-cases. 
 6. Relational Database and Non- relational Database
+   
+</details>
 
 # DBMS:  
 1. is a software that manages a database by storing, retrieving, and manipulating the data from database. # Ex: oracle, MySQL...Etc. are some DBMS tools.
