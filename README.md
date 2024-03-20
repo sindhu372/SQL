@@ -60,6 +60,9 @@
 
 </details>
 
+<details>
+	<summary>DataTypes</summary>
+	
 # DataTypes
 **Numeric Types:**
 
@@ -105,7 +108,11 @@
 **JSON Types** (introduced in newer versions):
 
 **json:** JSON data type for storing JSON (JavaScript Object Notation) data.
+</details>
 
+<details>
+	<summary>DDL</summary>
+	
 # DDL ( data defination language)
 1. DDL commands are used to define, modify and manage the structure of database objects like table, view, constraints and indexes.
 2. **Create:** Used to create new database objects.
@@ -153,6 +160,8 @@
 
 10. truncate syntax : **truncate table sample;**
 11.  drop syntax : **drop table sample;**
+
+</details>
 
 # DML (Data Manipulation Language):
 1. these commands are used to manipulate the data stored in database objects.
