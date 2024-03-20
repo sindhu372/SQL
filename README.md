@@ -21,6 +21,9 @@
    
 </details>
 
+<details>
+	<summary> DBMS </summary>
+	
 # DBMS:  
 1. is a software that manages a database by storing, retrieving, and manipulating the data from database. # Ex: oracle, MySQL...Etc. are some DBMS tools.
 
@@ -32,6 +35,7 @@
 5. Data Quality:
 6. Backup and Disaster Recovery:
 7. Data Governance and Compliance:
+</details>
 
 <details>
 	<summary>Datawarehouse</summary>
