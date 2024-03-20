@@ -163,6 +163,9 @@
 
 </details>
 
+<details>
+	<summary>DML</summary>
+	
 # DML (Data Manipulation Language):
 1. these commands are used to manipulate the data stored in database objects.
 2. **SELECT:** Used to retrieve data from one or more tables based on specified criteria.
@@ -193,11 +196,17 @@
  	update sample set name = 'Sripriya Konda' where name = 'sripriya konda';
 
 	 delete from sample where name like '%koramoni'
+</details>
 
+<details>
+	<summary>DCL</summary>
+	
 # DCL (Data Control Language): 
 1. DCL commands are used to control access to the database objects and define permissions for users or roles.
 2. GRANT SELECT, INSERT ON Employees TO user1;
 3. REVOKE INSERT ON Employees FROM user1;
+
+</details>
 
    
       
